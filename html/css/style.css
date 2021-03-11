@@ -94,6 +94,10 @@ header {
   animation: moveBanner 30s 0.9s forwards;
 }
 
+button:hover {
+  background: #6fbaf8;
+}
+
 @keyframes moveBanner {
   0% {
     transform: translateY(10rem) rotateY(-30deg);
@@ -113,12 +117,4 @@ header {
   right: -20rem;
   transition: all 1s;
   z-index: 80;
-}
-
-.social-media {
-  position: absolute;
-  bottom: 2rem;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
 }
