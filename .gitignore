@@ -1,0 +1,6 @@
+.node_modules
+.html/clone/pasta-do-site/images
+.html/clone/pasta-do-site/js
+.node_modules/*
+
+html/
