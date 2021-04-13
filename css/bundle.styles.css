@@ -26064,7 +26064,7 @@ body
   .nav-item.current-menu-parent
   .nav-link,
 body #header .container .navbar .navbar-nav .nav-item:hover .nav-link {
-  border-color: #2ebcfc;
+  /* border-color: #2ebcfc; */
   color: #2ebcfc;
 }
 body #header .container .navbar .navbar-nav .nav-item .dropdown-menu {
