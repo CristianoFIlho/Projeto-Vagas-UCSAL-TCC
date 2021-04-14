@@ -295,7 +295,25 @@ media="all"
       });
     </script>
   </head>
-  <body class="header-fixed">
+  <!-- Chatbot Sofia -->
+  <div id="background-chat" onclick="minimizar();" class="background-chat-close"></div>
+  <div id="div_mom" class="div_mom_fechado">
+      
+      <div class="input-cabecalho sofia-topo" >
+        <img id="down" title="Minimizar" class="sofia-up-down" onclick="minimizar()" src="https://mundomaker.com.br/htdocs/wp-content/themes/mesmerize/chat-sofia/img/fechar.svg">
+        <span id="titulo" class="sofia-titulo" onclick="PrimeiraResposta();maximizar();" >Olá! Meu nome é Sofia.</span><img title="Sofia" class="input-sofia sofia-img" onclick="PrimeiraResposta();maximizar();" src="https://mundomaker.com.br/htdocs/wp-content/themes/mesmerize/chat-sofia/img/Sofia_Marco.png">
+      </div>
+      <div class="sofia-chat" id="chat-sofia"><div class="solicitacao"><span class="bubble">Bem vindo(a), sou Sofia, a inteligência artificial da Softwell. <br>
+          Você pode tirar suas dúvidas sobre Inteligência Artificial comigo, será um prazer ajudar.</span></div></div>
+      <div class="sofia-formulario">
+        <input id="textofaq" class="sofia-input" maxlength="2048" type="text" onkeyup="TeclaPressionada(event)" onclick="PrimeiraResposta();maximizar();" placeholder="Como posso te ajudar?">
+        <button id="btn" class="sofia-botao" name="goFaq" onclick="solicitacao(document.getElementById('textofaq').value); document.getElementById('textofaq').value='';document.getElementById('textofaq').placeholder='Posso te ajudar em algo mais?';
+        maximizar();">Enviar</button>
+      </div>
+  </div>
+  <div id="div-invisivel" onclick="minimizar()" style="display: none;">
+  </div>
+  <body class="header-fixed"> 
     <div
       class="parallax-mirror"
       style="
@@ -707,6 +725,7 @@ media="all"
           </div>
         </div>
       </section>
+      
 
       <footer id="footer">
         <div class="container">
