@@ -1,0 +1,312 @@
+#div_mom,
+.sofia-container {
+    z-index: 99999999 !important;
+    padding: 10px !important;
+    background: #efefef !important;
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+
+    border-radius: 10px 70px 10px 10px !important;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(83, 86, 90, 0.42) !important;
+    -moz-box-shadow: 0px 0px 15px 1px rgba(131,173,247,0.42) !important;
+    box-shadow: 0px 4px 12px 2px rgba(59, 63, 68, 0.34) !important;
+
+    font-family: "Open Sans", Arial, "Liberation Sans", FreeSans, sans-serif !important;
+}
+
+.sofia-topo {
+    position: relative !important;
+    padding: 10px !important;
+    border-radius: 10px 100px 0 0 !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+
+    background: rgb(30,87,153) !important; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%) !important; /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%) !important; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ) !important; /* IE6-9 fallback on horizontal gradient */
+}
+
+.sofia-titulo {
+    padding:5px !important;
+}
+
+.sofia-up-down {
+    width:13px !important;
+    cursor:pointer !important;
+    display:inline-block !important;
+    margin: -4px 0 0 0 !important;
+}
+
+.sofia-img {
+    position: absolute !important;
+    bottom:0 !important;
+    right: 0 !important;
+    width: 120px !important;
+    height: auto !important;
+}
+
+.sofia-formulario {
+    margin-top: 5px !important;
+}
+
+.solicitacao,
+.retornoCss {
+    display: table !important;
+    width: 100% !important;
+    position: relative !important;
+}
+
+.solicitacao .bubble,
+.retornoCss .bubble {
+    max-width: 90% !important;
+    display: inline-block !important;
+    right: 0 !important;
+    background: #f2f2f3 !important;
+    margin: 0 0 20px 0 !important;
+    padding: 10px 20px !important;
+    color: #ffffff !important;
+}
+
+.retornoCss .bubble {
+    max-width: 90% !important;
+    display: inline-block !important;
+    right: 0 !important;
+    background: #f2f2f3 !important;
+    border-radius: 0 5px 5px 5px !important;
+    margin: 0 0 20px 0 !important;
+    padding: 10px 20px !important;
+    color: #657080 !important;
+    font-size: 14px !important;
+}
+
+.solicitacao .bubble p,
+.retornoCss .bubble p,
+.solicitacao .bubble p span,
+.retornoCss .bubble p span,
+.solicitacao .bubble span,
+.retornoCss .bubble span {
+    text-align: left !important !important;
+    font-size: 14px !important !important;
+    font-family: "Open Sans", Arial, "Liberation Sans", FreeSans, sans-serif !important !important;
+}
+
+.solicitacao .bubble p a,
+.retornoCss .bubble p a,
+.solicitacao .bubble p span a,
+.retornoCss .bubble p span a,
+.solicitacao .bubble span a,
+.retornoCss .bubble span a {
+    color: #fc0 !important;
+}
+
+.solicitacao .bubble p a:hover,
+.retornoCss .bubble p a:hover,
+.solicitacao .bubble p span a:hover,
+.retornoCss .bubble p span a:hover,
+.solicitacao .bubble span a:hover,
+.retornoCss .bubble span a:hover {
+    text-decoration: none !important;
+}
+
+.solicitacao .bubble::before {
+    content: "" !important;
+    display: block !important;
+    position: absolute !important;
+    left: 100% !important;
+    margin-right: 10px !important;
+    top: 0 !important;
+    vertical-align: middle !important;
+    width: 0 !important;
+    height: 0 !important;
+    border-bottom: 14px solid transparent !important;
+    border-top: 0 solid transparent !important;
+    border-left: 15px solid #1e90ff !important;
+}
+
+.retornoCss .bubble::before {
+    content: "" !important;
+    display: block !important;
+    position: absolute !important;
+    right: 100% !important;
+    top: 0 !important;
+    vertical-align: middle !important;
+    width: 0 !important;
+    height: 0 !important;
+    border-bottom: 14px solid transparent !important;
+    border-top: 0 solid transparent !important;
+    border-right: 15px solid #f2f2f3 !important;
+}
+
+.solicitacao .bubble {
+    background: #1e90ff !important;
+    border-radius: 5px 0 5px 5px !important;
+    float: right !important;
+    font-size: 14px !important;
+}
+
+.sofia-formulario {
+    font-size: 14px !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.sofia-input {
+    padding: 5px 10px !important;
+    font-size: 14px !important;
+    border: 1px solid #e6e6e6 !important;
+}
+
+.sofia-botao {
+    width: 100px !important;
+    padding: 5px 0 !important;
+    color: #ffffff !important;
+    border: 0 !important;
+    background-color: #1e90ff !important;
+    border-radius: 3px !important;
+}
+
+.sofia-botao:hover {
+    background-color: #4169E1 !important;
+}
+
+.div_mom_fechado {
+    width: 360px !important;
+    height: 100px !important;
+    -webkit-transition: width 1s, height 1s !important; /* Safari */
+    transition: width 1s, height 1s !important;
+    -webkit-transition-timing-function: ease !important;
+    transition-timing-function: ease !important;
+}
+
+.div_mom_aberto {
+    width: 500px !important;
+    height: 610px !important;
+    -webkit-transition: width 1s, height 1s !important; /* Safari */
+    transition: width 1s, height 1s !important;
+    -webkit-transition-timing-function: ease !important;
+    transition-timing-function: ease !important;
+}
+
+.div_mom_fechado #down,
+.div_mom_aberto #up {
+    display: none !important;
+}
+
+.div_mom_fechado #up,
+.div_mom_aberto #down {
+    display: inline-block !important;
+}
+
+.div_mom_fechado .sofia-input {
+    width: 235px !important;
+    -webkit-transition: width 1s !important;
+    transition: width 1s !important;
+    -webkit-transition-timing-function: ease !important;
+    transition-timing-function: ease !important;
+}
+
+.div_mom_aberto .sofia-input {
+    width: calc(100% - 210px) !important;
+    -webkit-transition: width 1s !important;
+    transition: width 1s !important;
+    -webkit-transition-timing-function: ease !important;
+    transition-timing-function: ease !important;
+}
+
+.sofia-chat {
+    background-color: #ffffff !important;
+}
+
+.div_mom_fechado .sofia-chat {
+    width: 100% !important;
+    height: 0 !important;
+    padding: 0 !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+    -webkit-transition: width 1s, height 1s, padding 1s, opacity 1s !important; /* Safari */
+    transition: width 1s, height 1s, padding 1s, opacity 1s !important;
+    -webkit-transition-timing-function: ease !important;
+    transition-timing-function: ease !important;
+}
+
+.div_mom_aberto .sofia-chat {
+    width: 100% !important;
+    height: 510px !important;
+    padding: 20px !important;
+    opacity: 100 !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    -webkit-transition: width 1s, height 1s, padding 1s, opacity 1s !important; /* Safari */
+    transition: width 1s, height 1s, padding 1s, opacity 1s !important;
+    -webkit-transition-timing-function: ease !important;
+    transition-timing-function: ease !important;
+}
+
+ #btn-contato {
+    position: absolute !important;
+    top: 1px !important;
+}
+
+.div_mom_fechado #btn-contato {
+    right: -100px !important;
+    opacity: 0 !important;
+    -webkit-transition: right 0.6s, opacity 1s !important;
+    transition: right 1.6s, opacity 1s !important;
+    -webkit-transition-timing-function: ease !important;
+    transition-timing-function: ease !important;
+}
+
+.div_mom_aberto #btn-contato {
+    right: 0px !important;
+    opacity: 100 !important;
+    -webkit-transition: right 0.6s, opacity 1s !important;
+    transition: right 0.5s, opacity 1s !important;
+    -webkit-transition-timing-function: ease !important;
+    transition-timing-function: ease !important;
+}
+
+.div_mom_fechado #down,
+.div_mom_aberto #up {
+    -webkit-animation: fade-down 1s !important;
+    -moz-animation: fade-down 1s !important;
+}
+
+.div_mom_fechado #up,
+.div_mom_aberto #down{
+    -webkit-animation: fade-up 1s !important;
+    -moz-animation: fade-up 1s !important;
+}
+
+@-webkit-keyframes fade-up {
+      0% { opacity: 0 !important; }   
+    100% { opacity: 1 !important; }
+}
+@-moz-keyframes fade-down {
+      0% { opacity: 1 !important; }   
+    100% { opacity: 0 !important; }
+}
+
+.digitando:after {
+  overflow: hidden !important;
+  display: inline-block !important;
+  vertical-align: bottom !important;
+  -webkit-animation: ellipsis steps(4,end) 900ms infinite !important;      
+  animation: ellipsis steps(4,end) 900ms infinite !important;
+  content: "\2026" !important; /* ascii code for the ellipsis character */
+  width: 0px !important;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 1.25em !important;    
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1.25em !important;    
+  }
+}

@@ -1,0 +1,324 @@
+#div_mom,
+.sofia-container {
+    z-index: 99999999;
+    padding: 10px;
+    background: #efefef;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    border-radius: 10px 70px 10px 10px;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(83, 86, 90, 0.42);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(131,173,247,0.42);
+    box-shadow: 0px 4px 12px 2px rgba(59, 63, 68, 0.34);
+
+    font-family: "Open Sans", Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+.sofia-topo {
+    position: relative;
+    padding: 10px;
+    border-radius: 10px 100px 0 0;
+    color: #ffffff;
+    font-size: 14px;
+
+    background: rgb(30,87,153); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.sofia-titulo {
+    padding:5px;
+}
+
+.sofia-up-down {
+    width:13px;
+    cursor:pointer;
+    display:inline-block;
+    margin: -4px 0 0 0;
+}
+
+.sofia-img {
+    position: absolute;
+    bottom:0;
+    right: 0;
+    width: 120px;
+    height: auto;
+}
+
+.sofia-formulario {
+    margin-top: 5px;
+}
+
+.solicitacao,
+.retornoCss {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+.solicitacao .bubble,
+.retornoCss .bubble {
+    max-width: 90%;
+    display: inline-block;
+    right: 0;
+    background: #f2f2f3;
+    margin: 0 0 20px 0;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+.retornoCss .bubble {
+    max-width: 90%;
+    display: inline-block;
+    right: 0;
+    background: #f2f2f3;
+    border-radius: 0 5px 5px 5px;
+    margin: 0 0 20px 0;
+    padding: 10px 20px;
+    color: #657080;
+    font-size: 14px;
+}
+
+.solicitacao .bubble p,
+.retornoCss .bubble p,
+.solicitacao .bubble p span,
+.retornoCss .bubble p span,
+.solicitacao .bubble span,
+.retornoCss .bubble span {
+    text-align: left !important;
+    font-size: 14px !important;
+    font-family: "Open Sans", Arial, "Liberation Sans", FreeSans, sans-serif !important;
+}
+
+.solicitacao .bubble p a,
+.retornoCss .bubble p a,
+.solicitacao .bubble p span a,
+.retornoCss .bubble p span a,
+.solicitacao .bubble span a,
+.retornoCss .bubble span a {
+    color: #fc0;
+}
+
+.solicitacao .bubble p a:hover,
+.retornoCss .bubble p a:hover,
+.solicitacao .bubble p span a:hover,
+.retornoCss .bubble p span a:hover,
+.solicitacao .bubble span a:hover,
+.retornoCss .bubble span a:hover {
+    text-decoration: none;
+}
+
+.solicitacao .bubble::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 100%;
+    margin-right: 10px;
+    top: 0;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    border-bottom: 14px solid transparent;
+    border-top: 0 solid transparent;
+    border-left: 15px solid #1e90ff;
+}
+
+.retornoCss .bubble::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    border-bottom: 14px solid transparent;
+    border-top: 0 solid transparent;
+    border-right: 15px solid #f2f2f3;
+}
+
+.solicitacao .bubble {
+    background: #1e90ff;
+    border-radius: 5px 0 5px 5px;
+    float: right;
+    font-size: 14px;
+}
+
+.sofia-formulario {
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sofia-input {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #e6e6e6;
+}
+
+.sofia-botao {
+    width: 100px;
+    padding: 5px 0;
+    color: #ffffff;
+    border: 0;
+    background-color: #1e90ff;
+    border-radius: 3px;
+}
+
+.sofia-botao:hover {
+    background-color: #4169E1;
+}
+
+.div_mom_fechado {
+    width: 360px;
+    height: 100px;
+    -webkit-transition: width 1s, height 1s; /* Safari */
+    transition: width 1s, height 1s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+.div_mom_aberto {
+    width: 500px;
+    height: 615px;
+    -webkit-transition: width 1s, height 1s; /* Safari */
+    transition: width 1s, height 1s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+.div_mom_fechado #down,
+.div_mom_aberto #up {
+    display: none;
+}
+
+.div_mom_fechado #up,
+.div_mom_aberto #down {
+    display: inline-block;
+}
+
+.div_mom_fechado .sofia-input {
+    width: 235px;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+.div_mom_aberto .sofia-input {
+    width: calc(100% - 210px);
+    -webkit-transition: width 1s;
+    transition: width 1s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+.sofia-chat {
+    background-color: #ffffff;
+}
+
+.div_mom_fechado .sofia-chat {
+    width: 100%;
+    height: 0 !important;
+    padding: 0;
+    opacity: 0;
+    overflow: hidden;
+    -webkit-transition: width 1s, height 1s, padding 1s, opacity 1s; /* Safari */
+    transition: width 1s, height 1s, padding 1s, opacity 1s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+.div_mom_aberto .sofia-chat {
+    width: 100%;
+    height: 510px;
+    padding: 20px;
+    opacity: 100;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-transition: width 1s, height 1s, padding 1s, opacity 1s; /* Safari */
+    transition: width 1s, height 1s, padding 1s, opacity 1s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+ #btn-contato {
+    position: absolute;
+    top: 1px;
+}
+
+.div_mom_fechado #btn-contato {
+    right: -100px;
+    opacity: 0;
+    -webkit-transition: right 0.6s, opacity 1s;
+    transition: right 1.6s, opacity 1s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+.div_mom_aberto #btn-contato {
+    right: 0px;
+    opacity: 100;
+    -webkit-transition: right 0.6s, opacity 1s;
+    transition: right 0.5s, opacity 1s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+.div_mom_fechado #down,
+.div_mom_aberto #up {
+    -webkit-animation: fade-down 1s;
+    -moz-animation: fade-down 1s;
+}
+
+.div_mom_fechado #up,
+.div_mom_aberto #down{
+    -webkit-animation: fade-up 1s;
+    -moz-animation: fade-up 1s;
+}
+
+@-webkit-keyframes fade-up {
+      0% { opacity: 0; }   
+    100% { opacity: 1; }
+}
+@-moz-keyframes fade-down {
+      0% { opacity: 1; }   
+    100% { opacity: 0; }
+}
+
+.digitando:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4,end) 900ms infinite;      
+  animation: ellipsis steps(4,end) 900ms infinite;
+  content: "\2026"; /* ascii code for the ellipsis character */
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 1.25em;    
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1.25em;    
+  }
+}
+@media screen and (max-width: 600px) {
+.div_mom_aberto{
+width: 90%;  
+position: absolute;
+}
+.div_mom_fechado{
+  width: 90%;
+}
+.div_mom_fechado .sofia-input{
+  width: 185px;
+}
+}
