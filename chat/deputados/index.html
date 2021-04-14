@@ -1,0 +1,555 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    
+<!-- Mirrored from bdevs.co/netaji/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Jan 2019 14:18:58 GMT -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Netaji - Political & Election HTML5 Template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="#">
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/meanmenu.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
+	    <!-- Chatbot Softwell -->
+	    <script type="text/javascript" src="cbsw/js/cbsw.js"></script>
+	    <link rel="stylesheet" href="cbsw/css/cbsw.css">
+
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Chatbot Softwell -->
+	    <span onclick="maximizar();" id="cbsw_icon" class="cbsw_icon rounded-circle bg-danger text-light"><i class="fa fa-comment" aria-hidden="true"></i></span>
+	    <div id="cbsw" class="cbsw cbsw_collapsed col-lg-4 col-md-6 col-sm-12 cbsw_animation">
+	        <div onclick="toggle();" class="cbsw_top bg-danger text-light rounded-top p-3 shadow">
+	            <i class="cbsw_openclose cbsw_open text-light pr-2 fa fa-comment" aria-hidden="true"></i> 
+	            <i class="cbsw_openclose cbsw_close text-light pr-2 fa fa-times" aria-hidden="true"></i>
+	            <span class="panel-title">Olá! Meu nome é Regina.</span>
+	            <span><img class="cbsw_image" src="cbsw/img/img.png"></span>
+	        </div>
+	        <div style="overflow-x: hidden;" id="cbsw_scroll" class="cbsw_dialogue border bg-white">
+	            <div id="cbsw_dialogue" class="py-3 px-4 cbsw_dialogue-content cbsw_animation"> 
+	            </div>
+	        </div> 
+	        <div class="cbsw_action bg-light p-2 border border-top-0">
+	            <div class="input-group input-group-lg">
+	                <input id="cbsw_input" class="form-control p-0" onkeyup="TeclaPressionada(event);" onclick="PrimeiraResposta();" placeholder="Como posso te ajudar?">
+	                <div class="input-group-btn">
+	                    <button onclick="mensage();$('.alert2').alert('close');" type="button" id="cbsw_submit" class="btn btn-default btn-primary text-white bg-danger cbsw_button cbsw_submit rounded-right p-3">
+	                        Enviar <i class="fa fa-paper-plane pl-2" aria-hidden="true"></i>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>	
+
+
+		<!-- header-start -->
+		<header class="header-transparent">
+			<div id="sticky-header" class="main-menu-area pt-40">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-3 col-lg-3">
+							<div class="logo">
+								<a href="#"><img src="img/logo/logo.png" alt="" /></a>
+							</div>
+						</div>
+						<div class="col-xl-9 col-lg-9">
+							<div class="main-menu text-right f-right">
+								<nav id="mobile-menu">
+									<ul>
+										<li class="active"><a href="#">Institucional </a></li>
+										<li><a href="#">Deputados</a></li>
+										<li><a href="#">Atividades</a></li>
+										<li><a href="#">Transparência</a></li>
+										<li><a href="#">Comunicação</a></li>
+										<li><a href="#">Contato</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="mobile-menu"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</header>
+		<!-- header-end -->
+
+		<!-- slider-start -->
+		<div class="slider-area">
+			<div class="slider-active">
+				<div class="single-slider slider-height d-flex align-items-center" style="background-image:url(img/slider/slider1.jpg)">
+				   <div class="container">
+					   <div class="row ">
+						   <div class="col-xl-12">
+								<div class="slider-content">
+									<h1 data-animation="fadeInUp" data-delay=".4s">Perspectivas <br> para 2019</h1>
+									<p data-animation="fadeInUp" data-delay=".6s">As atividades para Gestão de Qualidade em 2019 demonstram o comprometimento e melhoria contínua para cidade.</p>
+									<a data-animation="fadeInUp" data-delay=".8s" class="btn" href="#">Leia Mais</a>
+								</div>
+						   </div>
+					   </div>
+				   </div>
+				</div>
+				<div class="single-slider slider-height d-flex align-items-center" style="background-image:url(img/slider/slider1.jpg)">
+				   <div class="container">
+					   <div class="row ">
+						   <div class="col-xl-12">
+								<div class="slider-content">
+									<h1 data-animation="fadeInUp" data-delay=".4s">Let's make the <br> great country</h1>
+									<p data-animation="fadeInUp" data-delay=".6s">But I must explain to you how all this mistaken idea of denouncing pleasure and prai sing pain was born and I will give you a complete account.</p>
+									<a data-animation="fadeInUp" data-delay=".8s" class="btn" href="#">join with us</a>
+								</div>
+						   </div>
+					   </div>
+				   </div>
+				</div>
+				<div class="single-slider slider-height d-flex align-items-center" style="background-image:url(img/slider/slider1.jpg)">
+				   <div class="container">
+					   <div class="row ">
+						   <div class="col-xl-12">
+								<div class="slider-content">
+									<h1 data-animation="fadeInUp" data-delay=".4s">Let's make the <br> great country</h1>
+									<p data-animation="fadeInUp" data-delay=".6s">But I must explain to you how all this mistaken idea of denouncing pleasure and prai sing pain was born and I will give you a complete account.</p>
+									<a data-animation="fadeInUp" data-delay=".8s" class="btn" href="#">join with us</a>
+								</div>
+						   </div>
+					   </div>
+				   </div>
+				</div>
+			</div>
+		</div>
+		<!-- slider-start -->
+
+		<!-- feature-area-start	 -->
+		<div class="feature-area pt-80">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<div class="section-title text-center mb-60">
+							<h1>Acompanhe tudo o que acontece <br> na Câmara da sua cidade</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-4 col-lg-4 col-md-6">
+						<div class="feature-wrapper text-center mb-30">
+							<div class="feature-item">
+								<div class="feature-img">
+									<img src="img/feature/icon1.png" alt="" />
+								</div>
+								<div class="feature-text">
+									<h2>Diário Oficial</h2>
+									<a class="btn" href="#">leia mais</a>
+								</div>
+							</div>
+							<div class="feature-content">
+								<h2>Diário Oficial</h2>
+								<p>Acompanhe as atividades e a gestão dos vereadores. </p>
+								<a class="btn" href="#">leia mais</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6">
+						<div class="feature-wrapper active text-center mb-30">
+							<div class="feature-item">
+								<div class="feature-img">
+									<img src="img/feature/icon2.png" alt="" />
+								</div>
+								<div class="feature-text">
+									<h2>Join Volunteer</h2>
+									<a class="btn" href="#">leia mais</a>
+								</div>
+							</div>
+							<div class="feature-content">
+								<h2>Atividade Legislativa</h2>
+								<p> Acompanhe as atividades, Lei Orgânica do Município, Regimento Interno, Comissões e PDDU.</p>
+								<a class="btn" href="#">leia mais</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6">
+						<div class="feature-wrapper text-center mb-30">
+							<div class="feature-item">
+								<div class="feature-img">
+									<img src="img/feature/icon1.png" alt="" />
+								</div>
+								<div class="feature-text">
+									<h2>Ouvidoria</h2>
+									<a class="btn" href="#">leia mais</a>
+								</div>
+							</div>
+							<div class="feature-content">
+								<h2>Ouvidoria</h2>
+								<p>Aqui você acompanha as audiências públicas, cartilhas, serviços prestados e notícias.</p>
+								<a class="btn" href="#">leia mais</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-12 mt-25">
+						<div class="feature-info text-center">
+							<p><a href="#"></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- feature-area-end -->
+
+		<!-- donation-area-start -->
+		<div class="donation-area pt-240 pb-140" style="background-image:url(img/bg/4.jpg)">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 offset-xl-6 col-lg-6 offset-lg-6">
+						<div class="donation-wrapper">
+							<div class="donation-text">
+								<h1>Programa <br> de Transparência</h1>
+								<p>Acompanhe em tempo real todas as transações para as atividades da sua cidade.</p>
+								<div class="donation-button donation-button2">
+									<button>20 M </button>
+									<button>30 M </button>
+									<button>90 M </button>
+								</div>
+								<div class="cart-plus-minus">
+									<input type="text" value="02" name="qtybutton" class="cart-plus-minus-box">
+								</div>
+								<a class="btn" href="#">mais detalhes</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- donation-area-end -->
+
+		<!-- counter-area-start -->
+		<div class="counter-area pt-140 pb-110" style="background-image:url(img/bg/1.jpg)">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-3 cl-lg-3 col-md-6">
+						<div class="counter-wrapper text-center mb-30">
+							<div class="counter-text">
+								<h1 class="counter">20</h1>
+								<span>Vereadores</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 cl-lg-3 col-md-6">
+						<div class="counter-wrapper text-center mb-30">
+							<div class="counter-text">
+								<h1 class="counter">896</h1>
+								<span>Ações</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 cl-lg-3 col-md-6">
+						<div class="counter-wrapper text-center mb-30">
+							<div class="counter-text">
+								<h1 class="counter">40</h1>
+								<span>Espaços Restaurados</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 cl-lg-3 col-md-6">
+						<div class="counter-wrapper text-center mb-30">
+							<div class="counter-text">
+								<h1 class="counter">2.9000</h1>
+								<span>Habitantes</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- counter-area-end -->
+
+		<!-- event-area-start -->
+		<div class="event-area gray-bg pt-110 pb-120">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<div class="section-title text-center mb-60">
+							<h1>Mostramos as <span>notícias</span> e <span>eventos</span> <br> importantes para a cidade.</h1>
+						</div>
+					</div>
+				</div>
+				<div class="event-bg">
+					<div class="event-box-active">
+						<div class="event-wrapper">
+							<div class="event-img">
+								<img src="img/event/1.jpg" alt="" />
+								<div class="event-text">
+									<h2><a href="#">Passeata dos Animais</a></h2>
+									<span>14 de fevereiro de 2019</span>
+								</div>
+							</div>
+						</div>
+						<div class="event-wrapper">
+							<div class="event-img">
+								<img src="img/event/2.jpg" alt="" />
+								<div class="event-text">
+									<h2><a href="#">Inauguração da praça das Flores</a></h2>
+									<span>04 de março de 2019</span>
+								</div>
+							</div>
+						</div>
+						<div class="event-wrapper">
+							<div class="event-img">
+								<img src="img/event/3.jpg" alt="" />
+								<div class="event-text">
+									<h2><a href="#">Maternidade é inaugurada</a></h2>
+									<span>16 de janeiro</span>
+								</div>
+							</div>
+						</div>
+						<div class="event-wrapper">
+							<div class="event-img">
+								<img src="img/event/4.jpg" alt="" />
+								<div class="event-text">
+									<h2><a href="#">Our human Activities</a></h2>
+									<span>16 december 2018</span>
+								</div>
+							</div>
+						</div>
+						<div class="event-wrapper">
+							<div class="event-img">
+								<img src="img/event/5.jpg" alt="" />
+								<div class="event-text">
+									<h2><a href="#">About Alignment Flex.</a></h2>
+									<span>12 January 2018</span>
+								</div>
+							</div>
+						</div>
+						<div class="event-wrapper">
+							<div class="event-img">
+								<img src="img/event/6.jpg" alt="" />
+								<div class="event-text">
+									<h2><a href="#">Maternidade é inaugurada</a></h2>
+									<span>20 de fevereiro de 2019</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- event-area-end -->
+
+		<!-- blog-area-start -->
+		<div class="blog-area pb-90 pt-110 gray-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<div class="section-title text-center mb-60">
+							<h1>Solenidades<br> e <span>Audiências</span></h1>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-6">
+						<div class="blog-wrapper mb-30">
+							<div class="blog-img">
+								<a href="#"><img src="img/blog/blog1.jpg" alt="" /></a>
+								<div class="blog-text">
+									<span>05 de março 2019</span>
+									<h2><a href="#">Sessões Solenes</a></h2>
+									<a href="#">ver mais</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6">
+						<div class="blog-wrapper mb-30">
+							<div class="blog-img">
+								<a href="#"><img src="img/blog/blog2.jpg" alt="" /></a>
+								<div class="blog-text">
+									<span>05 de julho 2019</span>
+									<h2><a href="#">Audiências Públicas</a></h2>
+									<a href="#">ver mais</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- blog-area-end -->
+
+		<!-- subscribe-area-start -->
+		<div class="subscribe-area pt-110 pb-115" style="background-image:url(img/bg/3.jpg)">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
+						<div class="subscribe-wrapper text-center">
+							<div class="subscribe-title mb-60">
+								<h1>Receba as últimas <br> notícias da Câmara.</h1>
+							</div>
+							<div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Seu e-mail">
+                                    <button type="submit">Inscrever-se</button>
+                                </form>
+                            </div>
+							<div class="subscribe-text">
+								<p>Últimas notícias, eventos, transparência, Netaji TV Câmara, Projetos de Lei e Proposições.</p>
+							</div>
+						</div>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<!-- subscribe-area-end -->
+
+		<!-- footer-area-start -->
+		<footer>
+			<div class="footer-area pt-115 pb-90">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-4 col-lg-4 col-md-6">
+							<div class="footer-wrapper mb-30">
+								<div class="footer-text">
+									<h3>Entre em contato com a gente!</h3>
+									<p>netaji@gmail.com</p>
+									<span>+65 (123) 456 77</span>
+								</div>
+								<div class="footer-info">
+									<h3>Endereço</h3>
+									<p>Rua Atlanta <br> San Francisco, CA 94107</p>
+								</div>
+								<div class="footer-icon">
+								   <a href="#"><i class="fab fa-facebook-f"></i></a>
+								   <a href="#"><i class="fab fa-twitter"></i></a>
+								   <a href="#"><i class="fab fa-google-plus-g"></i></a>
+								   <a href="#"><i class="fab fa-instagram"></i></a>
+								   <a href="#"><i class="fab fa-dribbble"></i></a>
+							   </div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-6">
+							<div class="footer-wrapper mb-30">
+								<h3 class="footer-title">Notícias Recentes</h3>
+								<ul class="footer-news">
+									<li>
+										<div class="footer-news-img">
+											<img src="img/footer/1.png" alt="" />
+										</div>
+										<div class="footer-news-text">
+											<h4><a href="#">Prefeito da cidade aprova projeto.</a></h4>
+											<span>05 de março de 2019</span>
+										</div>
+									</li>
+									<li>
+										<div class="footer-news-img">
+											<img src="img/footer/2.png" alt="" />
+										</div>
+										<div class="footer-news-text">
+											<h4><a href="#">Sessão Legislativa: Grande Expediente.</a></h4>
+											<span>07 janeiro de 2019</span>
+										</div>
+									</li>
+									<li>
+										<div class="footer-news-img">
+											<img src="img/footer/3.png" alt="" />
+										</div>
+										<div class="footer-news-text">
+											<h4><a href="#">Balanço Legislativo 2018.</a></h4>
+											<span>02 de janeiro de 2019</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-6">
+							<div class="footer-wrapper pl-15 mb-30">
+								<h3 class="footer-title">Siga a gente no Instagram</h3>
+								<ul class="footer-img">
+									<li><a href="#"><img alt="" src="img/instagram/1.jpg"></a></li>
+									<li><a href="#"><img alt="" src="img/instagram/2.jpg"></a></li>
+									<li><a href="#"><img alt="" src="img/instagram/3.jpg"></a></li>
+									<li><a href="#"><img alt="" src="img/instagram/4.jpg"></a></li>
+									<li><a href="#"><img alt="" src="img/instagram/5.jpg"></a></li>
+									<li><a href="#"><img alt="" src="img/instagram/6.jpg"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom-area pt-25 pb-25">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-6 col-lg-6">
+							<div class="copyright">
+								<p><i class="far fa-copyright"></i> 2018 Your Company. All Rights Reserved. Designed By <a href="#">BDevs.</a></p>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6">
+							<ul class="footer-footer-link text-lg-right">
+								<li><a href="#">Privacy & Policy </a></li>
+								<li><a href="#"> Setting </a></li>
+								<li><a href="#"> Contact Us </a></li>
+								<li><a href="#">Blog & News</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer-area-end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- JS here -->
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/jquery.meanmenu.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/ajax-form.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+<!-- Mirrored from bdevs.co/netaji/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Jan 2019 14:20:44 GMT -->
+</html>
