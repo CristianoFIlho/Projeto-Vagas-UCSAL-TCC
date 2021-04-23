@@ -26141,6 +26141,7 @@ body #footer #menu-footer img {
   max-width: 180px;
   height: auto;
 }
+
 body #footer #menu-footer .menu-footer {
   flex-wrap: wrap;
   padding-left: 0.5rem;
@@ -26148,6 +26149,11 @@ body #footer #menu-footer .menu-footer {
 body #footer #menu-footer .menu-footer li {
   width: 33.33333%;
   list-style-position: inside;
+}
+footer {
+	position:absolute !important;
+	bottom: -100; 
+	width:100% !important; 
 }
 body #footer h4 {
   margin-bottom: 0.55rem;
