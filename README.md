@@ -1,9 +1,17 @@
 # login-developers
-login developer softwell solutions 
 
-![softwell](https://user-images.githubusercontent.com/54041918/146535100-701504a9-8aa8-480b-8be0-55fee3371844.gif)
+Resume: 
 
-Deploy: https://desenvolvedormaker.netlify.app
+Quando pensamos em interatividade e comunicação, clara e objetiva pensamos em palavras de fácil entendimento sem espaço para ambiguidade e duplo entendimento.  Com base nisso e nos estudos relacionados à construção de chatbots interativos, o trabalho relacionado tem o enfoque do desenvolvimento com o enfoque na objetividade e assertividade das predições com base na interatividade do usuário.
+Este trabalho trata-se do desenvolvimento de um portal de  vagas para os cursos de engenharia de software e análise e desenvolvimento de sistemas utilizando um chatbot com uma rede neural, otimizando a busca de vagas direcionadas para a pessoa específica. Usando machine learning (aprendizado de máquina) para otimizar e ser assertivo com base na vaga  específica do usuário que utilizará o sistema.  Dentre o escopo selecionado haverá desafios e objetivos que serão adaptados conforme o desenvolvimento  podendo sofrer limitações ou enfoque em uma abrangência minificada. A missão e objetivo do trabalho, será a implementação de uma rede de vagas internas e de fácil acesso aos estudantes da UCSAL direcionando vagas assertivas e específicas para o cliente (aluno). 
+
+
+login developer ucsal: 
+
+MVP: https://www.figma.com/proto/uTTNYjg1NDY8v41NThY6hB/Portal-de-Vagas-UCSAL---MVP?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1
+
+
+Deploy: 
 
 ## 🛠 Getting started
 
