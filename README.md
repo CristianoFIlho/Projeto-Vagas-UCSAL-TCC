@@ -8,6 +8,8 @@ Este trabalho trata-se do desenvolvimento de um portal de  vagas para os cursos 
 
 login developer ucsal: 
 
+neural network: https://gist.github.com/CristianoFIlho/aa4aca247e97480f2bea8d528ff9d53c
+
 MVP: https://www.figma.com/proto/uTTNYjg1NDY8v41NThY6hB/Portal-de-Vagas-UCSAL---MVP?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1
 
 
