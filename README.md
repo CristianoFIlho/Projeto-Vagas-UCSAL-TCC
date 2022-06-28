@@ -9,6 +9,7 @@ Este trabalho trata-se do desenvolvimento de um portal de  vagas para os cursos 
 login developer ucsal: 
 
 neural network: https://colab.research.google.com/gist/CristianoFIlho/a6f92c6ca76a360414892344cbe425f1/chatbot.ipynb
+
 MVP: https://www.figma.com/proto/uTTNYjg1NDY8v41NThY6hB/Portal-de-Vagas-UCSAL---MVP?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1
 
 
